@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/art-one', function (req, res) {
-  res.sendFile(path.join("One here"));
+  res.sendFile(path.join('One here'));
 });
 
 app.get('/art-two', function (req, res) {
