@@ -10,14 +10,14 @@ app.get('/', function (req, res) {
 });
 
 app.get('/art-one', function (req, res) {
-  res.send(path.join('One here'));
+  res.send(('One here'));
 });
 
 app.get('/art-two', function (req, res) {
-  res.send(path.join("two here"));
+  res.send(("two here"));
 });
 app.get('/art-three', function (req, res) {
-  res.send(path.join("Three here"));
+  res.send(("Three here"));
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
